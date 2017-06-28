@@ -1,1 +1,44 @@
-$ejemplo: blue;
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+$gris-oscuro-titulos : #424242;
+$gris-claro-fecha: #5f6368;
+$gris-texto : #414549;
+$azul : #4285f4;
+
+.container{
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  .logo{
+    text-align: center;
+    width: 100%;
+    background: orange;
+    margin: 10px;
+  }
+ul{
+  background-color: white;
+  li{
+    display: inline-block;
+    padding: 20px;
+    list-style: none;/*para quitar el simbolo de lista*/
+    a{
+      color: $gris-oscuro-titulos;
+      text-decoration: none;/*se quita la linea de subrayado*/
+      padding: 10px;
+      }
+    }
+  }
+}
+.imagen{
+  img{
+    width: 100%;
+  }
+
+}
