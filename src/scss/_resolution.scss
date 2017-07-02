@@ -1,0 +1,8 @@
+@function columnas($n){
+  @return($n/12*100);
+}
+@for $i from 1 through 12{
+  .col-#{$i}{
+    width: columnas($i)*1%;
+  }
+}

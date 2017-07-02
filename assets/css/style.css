@@ -1,3 +1,39 @@
+.col-1 {
+  width: 8.33333%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-12 {
+  width: 100%; }
+
 * {
   padding: 0;
   margin: 0;
@@ -7,14 +43,12 @@
 .container {
   padding-right: 30px;
   padding-left: 30px;
-  background-color: blue;
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
   .container .logo {
     text-align: center;
     width: 100%;
-    background: orange;
     margin: 10px; }
   .container ul {
     background-color: white; }
@@ -29,7 +63,77 @@
         /*se quita la linea de subrayado*/
         padding: 10px; }
 
+h2 {
+  margin-top: 10px; }
+
+h4 {
+  margin-bottom: 10px; }
+
+p {
+  text-align: justify; }
+
+.minitext {
+  color: #414549;
+  font-size: 12px;
+  margin-top: 18px;
+  margin-bottom: 10px; }
+
+hr {
+  margin-top: 50px;
+  border: 1px solid #4285f4; }
+
+.podcast {
+  margin-top: 80px; }
+
 .imagen img {
   width: 100%; }
+
+.fondo-plomo {
+  padding-left: 20px;
+  padding-bottom: 22px;
+  margin-top: 90px;
+  position: relative;
+  width: 100%;
+  background-color: #E5E3E0; }
+  .fondo-plomo .texto-gd {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    width: 50%;
+    font-size: 15px; }
+    .fondo-plomo .texto-gd p {
+      display: inline-block; }
+      .fondo-plomo .texto-gd p span {
+        color: #4285f4; }
+  .fondo-plomo .img-gd {
+    position: relative;
+    right: 0;
+    display: inline-block;
+    width: 10%; }
+    .fondo-plomo .img-gd img {
+      width: 100%; }
+
+.text-blue {
+  color: #4285f4;
+  font-size: 12px;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 11px; }
+
+.row {
+  padding-top: 30px;
+  float: right;
+  width: 100%;
+  display: flex; }
+
+.padding-right {
+  padding-right: 25px; }
+
+.padding-left {
+  padding-left: 25px; }
+
+.conectivity {
+  margin-top: 30px;
+  border-top: 3px solid #4285f4; }
 
 /*# sourceMappingURL=style.css.map */
